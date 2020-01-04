@@ -18,12 +18,25 @@
         Welcome to my test website.
       <em><strong> <br> (Currently Under construction)
       </p>
+
+      <p>
+        <script type="text/javascript">
+        prompt = window.prompt('Whos age would you like to know?');
+        let names = ['John', 'Alex', 'Billy', 'Zoey', 'Kale']
+        let ages = [25, 15, 16, 34, 27, 14]
+        names.sort();
+        ages.sort();
+        let index = names.indexOf(prompt)
+        let printAge = ages[index]
+        alert(names[index] + ' is ' + printAge)
+        </script>
+      </p>
     </main>
 
     <footer class="footer">
       <nav class="main-menu">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <a href="testing.js">About</a>
         <a href="contact.html">Contact</a>
         <a href="projects.html">Projects</a>
       </nav>
